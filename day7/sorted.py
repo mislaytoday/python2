@@ -1,4 +1,10 @@
 # coding=utf-8
+'''
+排序常规
+对于两个元素x,和y,如果x<y则返回-1
+如果x=y,则返回0
+如果x>y,则返回1
+'''
 list_num = [36, 5, 12, 9, 21]
 print 'num = [36, 5, 12, 9, 21]'
 print 'sorted(num)',sorted(list_num)
